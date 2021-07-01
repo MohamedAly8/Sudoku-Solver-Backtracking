@@ -1,0 +1,6 @@
+1. Pick a random empty square
+2. Try all numbers
+3. Find a number that works
+4. Repeat with next empty square
+5. Backtrack if the solution cannot be completed
+    - Backtrack: Erase last number and try again with last step and go to Step 3
