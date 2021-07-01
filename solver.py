@@ -26,5 +26,5 @@ def show_board(brd):
                 print(str(brd[i][j]) + " ", end="")
 
 
-show_board(board)
+
 
