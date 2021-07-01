@@ -23,3 +23,5 @@ def show_board(brd):
                     print(brd[i][j])
             else:
                 print(str(brd[i][j]) + " ", end="")
+
+show_board(board)
