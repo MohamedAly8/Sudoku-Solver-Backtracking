@@ -12,7 +12,7 @@ board = [
 
 def show_board(brd):
     for i in range(len(brd)):
-        if i % 3 == 0 and not (i == 0):
+        if i % 3 == 0 and not i == 0:
             print("- - - - - - - - - - - - ")
         
         for j in range(len(brd)):
