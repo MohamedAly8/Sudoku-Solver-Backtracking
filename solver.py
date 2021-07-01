@@ -10,3 +10,19 @@ board = [
     [0,4,9,2,0,6,0,0,7]
 ]
 
+def show_board(brd):
+    for i in range(len(brd)):
+        if i % 3 == 0 and not (i == 0):
+            print("- - - - - - - - - - - - ")
+        
+        for j in range(len(brd)):
+            if j % 3 == 0 and not j == 0:
+                print(" | ", end="") #end does not make it go to new line
+
+            if j == 8:
+                    print(brd[i][j])
+            else:
+                print(str(brd[i][j]) + " ", end="")
+
+
+
